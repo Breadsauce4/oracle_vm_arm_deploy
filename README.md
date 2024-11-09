@@ -1,4 +1,4 @@
-# [Get “Always Free” VM instance in Oracle Cloud, and Solve “Out of Host Capacity” Issue: The Easy Way — Part 2](https://medium.com/@me69oshan/get-always-free-vm-instance-in-oracle-cloud-and-solve-out-of-host-capacity-issue-the-easy-way-88babae4eae5)
+# [Get “Always Free” VM instance on Oracle Cloud, and Solve “Out of Host Capacity” Issue: The Easy Way — Part 2](https://medium.com/@me69oshan/get-always-free-vm-instance-in-oracle-cloud-and-solve-out-of-host-capacity-issue-the-easy-way-88babae4eae5)
 
 **Mehedi Ehteshum**
 
