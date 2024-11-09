@@ -1,0 +1,33 @@
+Instance name: VM-arm-free-full
+Compartment: Compartment-free-full
+
+Availability domain: AD-1 Always Free-eligible
+Capacity type: On-demand capacity
+Fault domain: Let Oracle choose the best fault domain
+
+Shielded instance: Disabled
+Confidential computing: Disabled
+
+Image: Canonical Ubuntu 20.04
+Image build: 2024.10.02-0
+
+Shape: VM.Standard.A1.Flex Always Free-eligible
+OCPU count: 4
+Memory (GB): 24
+Network bandwidth (Gbps): 4
+
+VNIC name: VNIC-arm-free-full
+Virtual cloud network: VCN-free-full
+Subnet: SVCN-arm-free-full
+Launch options: -
+DNS record: Yes
+Use network security groups to control traffic: No
+Assign a public IPv4 address: Yes
+Private IPv4 address: Automatically assigned on creation
+IPv6 address: Not available
+
+Generate a key pair for me 
+(Save both keys)
+
+Boot volume, block volumes, advanced options (all defaults)
+

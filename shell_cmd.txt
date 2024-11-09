@@ -1,0 +1,29 @@
+// to view files and folders in the current directory
+ls
+
+// create new directory(s)
+mkdir <folder1> <folder2> <folder...>
+
+// to go back one directory
+cd ..
+
+// to go forward to a directory from current directory
+cd <folder1>/<folder2>
+
+// to create a new file in the current directory
+touch <file1>
+
+// to create/open and edit a new file in the current directory
+nano <file1>
+
+// to make a file (shell script) executable in the current directory
+chmod +x <file1.sh>
+
+// to run the executable script file in the current directory
+./file1.sh
+
+// to remove a file in the current directory
+rm <file1>
+
+// to remove a folder in the current directory
+rm -rf <folder1>
