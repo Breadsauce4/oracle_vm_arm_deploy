@@ -35,7 +35,7 @@ We’ll complete most of our tasks utilizing the Oracle resources and Oracle clo
 
 This way you can automate your VM deployment retries. Your automation script will keep trying for you while you can do your other work.
 
-Alternatively, you can modify and prepare multiple Terraform config main.tf files for all of your available domains, upload them in the cloud shell, and [update this script](https://github.com/MehediEhteshum/oracle_vm_arm_deploy/blob/main/script.sh) accordingly. Then you can use this script similarly to run the automation. However, I’ll recommend using the first approach.
+Alternatively, you can modify and prepare multiple Terraform config main.tf files for all of your available domains, upload them in the cloud shell, and [update this script](https://github.com/MehediEhteshum/oracle_vm_arm_deploy/blob/main/script.sh) accordingly. Then you can use this script similarly to run the automation. However, I recommend using the first approach.
 
 <h2>Support</h2>
 
