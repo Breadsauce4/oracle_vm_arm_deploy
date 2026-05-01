@@ -1,12 +1,10 @@
 #!/bin/bash
 
 # Define the availability domains ----------------------------------------- <UPDATE> -------------------------------------------
-AD1="bgAk:EU-FRANKFURT-1-AD-1"
-AD2="bgAk:EU-FRANKFURT-1-AD-2"
-AD3="bgAk:EU-FRANKFURT-1-AD-3"
+AD1="vjXN:AP-MELBOURNE-1-AD-1"
 
 # Array to hold availability domains
-AVAILABILITY_DOMAINS=("$AD1" "$AD2" "$AD3")
+AVAILABILITY_DOMAINS=("$AD1")
 
 # Loop indefinitely until a command succeeds
 while true; do
@@ -16,9 +14,9 @@ while true; do
 	# ------------------------------------------------------------ <UPDATE AS NECESSARY> ------------------------------------
         oci compute instance launch \
             --availability-domain "$AVAILABILITY_DOMAIN" \
-            --compartment-id "ocid1.compartment.oc1..aaaaaaaary***EXAMPLE*****UPDATE_ID***vlsopz6lq" \
+            --compartment-id "ocid1.compartment.oc1..aaaaaaaa4e4j7ir5ty2us7kpepa7zc5yfk7xc4xpgzj6sfa76wtujrnmto7a" \
             --shape "VM.Standard.A1.Flex" \
-            --subnet-id "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaahigcy*****EXAMPLE******UPDATE_ID******73qbizvxzjzjq" \
+            --subnet-id "ocid1.subnet.oc1.ap-melbourne-1.aaaaaaaakf2o76lda6me2uxtktanvcbiyebekaqfcfkm2uqcrzmgyjanvk3a" \
             --assign-private-dns-record true \
             --assign-public-ip true \
             --agent-config '{"is_management_disabled": false, "is_monitoring_disabled": false, "plugins_config": [
@@ -33,8 +31,8 @@ while true; do
                 {"desired_state": "DISABLED", "name": "Block Volume Management"},
                 {"desired_state": "DISABLED", "name": "Bastion"}]}' \
             --availability-config '{"recovery_action": "RESTORE_INSTANCE"}' \
-            --display-name "<PUT_YOUR_VM_NAME>" \
-            --image-id "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaausfft7********EXAMPLE*********UPDATE_ID*********qf5birrjk2zzcxv3sea" \
+            --display-name "<Minecraft Server>" \
+            --image-id "ocid1.image.oc1.ap-melbourne-1.aaaaaaaaut7eoptafz2ezxxedyaajbjwfjulf4hzb66wh52sdgsxzntakfua" \
             --instance-options '{"are_legacy_imds_endpoints_disabled": false}' \
             --shape-config '{"memory_in_gbs": 24, "ocpus": 4}' \
             --ssh-authorized-keys-file ./vm/id_rsa.pub
